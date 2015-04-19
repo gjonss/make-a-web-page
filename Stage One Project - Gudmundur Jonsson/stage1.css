@@ -1,0 +1,69 @@
+body {
+	padding: 20px 10px;
+	max-width: 2000px;
+	margin: 0 auto;
+	font-size: 1.4em;
+	font-family: gillsans;
+}
+
+h1 {
+	text-align: center;
+	color: blue;
+}
+
+p {
+	margin: 20px 0;
+}
+
+ul {
+	list-style-type: none; /* this removes any icon from the beginning of each item in the list.  The use of e.g. 'circle' here would add a circle at the beginning of each <li> element */
+}
+
+li {
+	font-size: 20px;
+	line-height: 40px;
+}
+
+.section {
+	background-color: green;
+	border-radius: 20px;
+	color: white;
+	padding: 15px;
+	margin: 10px auto;
+}
+
+h2 {
+	margin: 10px;
+	color: orange;
+	text-align: left;
+}
+
+.concept {
+	background-color: white;
+	padding: 4px;
+	margin: 10px;
+	border-radius: 4px;
+	color: black;
+}
+
+.concept-title {
+	font-size: 34px;
+	margin: 8px;
+	text-align: center;
+	color: blue;
+}
+
+.concept-description {
+	font-weight: lighter;
+	margin: 6px;
+}
+
+.italic {
+	font-style: italic; /* I know that this is not required but I wanted to add CSS in case I wanted the look of my italicised text to be particular to my website at some point in the future!*/
+	color: black;
+}
+
+.bold {
+	font-weight: bold; /* Same comment for 'italic' above applies here!*/
+	color: black;
+}
